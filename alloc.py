@@ -13,7 +13,7 @@ def preparenames():
     except IOError:
         sys.stderr.write("Oh CRAP! The file 'girls.dat' was not found.")
         return None
-    
+        
 print('Please wait while preparing data...')
 names = preparenames()
 if names != None:
