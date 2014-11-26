@@ -18,7 +18,7 @@ print('Please wait while preparing data...')
 names = preparenames()
 if names != None:
     if len(names) == 0:
-        sys.stderr.write("Sorry, but...")
+        sys.stderr.write("Sorry, but... Seems that you don't have a girlfriend.")
     else:
         nextIndex = random.randint(0, len(names) - 1)
-        print("Congrats! {0} is now your girlfriend.".format(names[nextIndex]))
+        print("Congrats! {0} is now your girlfriend. Ask her out!".format(names[nextIndex]))
